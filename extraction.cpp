@@ -24,7 +24,7 @@ int main(int argc, char* argv[]){
 	int sum = 0;
 	// 抽出演算子>>を使ってデリミタで区切られた単語，値を読み込む
 	while(ifs >> str >> num){
-		// ここでtmpを煮るなり焼くなりする
+		// ここで格納した文字列や変数を煮るなり焼くなりする
 		cout << str << " " << num << endl; // そのまま出力
 		sum += num; // 値をsumに加算
 	}

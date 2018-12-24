@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <ctype.h>　// isdigit()に必要
 
 int main(int argc, char* argv[]){
 	
@@ -29,7 +29,7 @@ int main(int argc, char* argv[]){
 		printf("%c", (char)tmp); // そのまま出力
 		
 		// 数字ならnumに数として格納
-		if(isdigit(tmp)){
+		if(isdigit(tmp)){ // tmpが数字なら
 			num = num * 10; // 位を1つ大きくする
 			num += tmp - '0'; // 一の位に値を入れる
 		}

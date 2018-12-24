@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-#define BUFSIZE 1024
+#define BUFSIZE 1024 // 1行に最大1024（終端を除けば1023）文字しかない前提
 
 int main(int argc, char* argv[]){
 	
 	// コマンドライン引数のチェック
 	if(argc != 2){
 		fprintf(stderr, "引数の数が間違っています．\n");
-		fprintf(stderr, "./fscanf input.txt\n");
+		fprintf(stderr, "./fgets input.txt\n");
 		return 1;
 	}
 	

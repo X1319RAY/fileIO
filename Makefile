@@ -1,7 +1,7 @@
 all: geninput fgetc fgets fscanf extraction getline
 
 geninput: geninput.cpp
-	gcc -o geninput geninput.cpp
+	g++ -o geninput geninput.cpp
 
 fgetc: fgetc.c
 	gcc -o fgetc fgetc.c

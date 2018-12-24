@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <ctype.h>　// isdigit()に必要
 
-#define BUFSIZE 1024
+#define BUFSIZE 1024 // 1行に最大1024（終端を除けば1023）文字しかない前提
 
 int main(int argc, char* argv[]){
 	
@@ -23,7 +23,7 @@ int main(int argc, char* argv[]){
 	}
 	
 	// fgets()で1行ずつ読み込む
-	char tmp[BUFSIZE]; // fgets()はchar型配列に格納
+	char tmp[BUFSIZE]; // fgets()はchar型配列に格納するのでchar型配列を用意
 	int num = 0;
 	int sum = 0;
 	while(fgets(tmp, BUFSIZE, fp) != NULL){
