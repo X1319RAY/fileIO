@@ -7,7 +7,7 @@ int main(int argc, char* argv[]){
 	// コマンドライン引数のチェック
 	if(argc != 2){
 		fprintf(stderr, "引数の数が間違っています．\n");
-		fprintf(stderr, "./fgets input.txt\n");
+		fprintf(stderr, "./fscanf input.txt\n");
 		return 1;
 	}
 	
