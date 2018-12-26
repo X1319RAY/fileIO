@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>　// isdigit()に必要
+#include <ctype.h> // isdigit()に必要
 
 int main(int argc, char* argv[]){
 	
