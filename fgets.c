@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>　// isdigit()に必要
+#include <ctype.h> // isdigit()に必要
 
 #define BUFSIZE 1024 // 1行に最大1024（終端を除けば1023）文字しかない前提
 
